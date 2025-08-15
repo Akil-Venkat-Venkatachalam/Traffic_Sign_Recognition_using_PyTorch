@@ -25,7 +25,7 @@ Each pickle file contains:
 ## ⚙️ Installation
 
 1. Clone the repository:
-```bash
+
 git clone https://github.com/yourusername/traffic-sign-classification.git
 cd traffic-sign-classification
 
@@ -37,7 +37,7 @@ Run the training script:
 
 python traffic_sign_classification.py
 
-🧠 Model Architecture
+## 🧠 Model Architecture
 
 The TrafficNet CNN consists of:
 
@@ -53,7 +53,7 @@ Fully Connected 1: Flatten → 128 neurons, ReLU activation
 
 Fully Connected 2: Output layer (43 classes)
 
-🔄 Training Process
+## 🔄 Training Process
 
 Optimizer: Adam (learning rate = 0.001)
 
@@ -65,11 +65,11 @@ Batch Size: 64
 
 Device: GPU if available, else CPU
 
-📈 Results
+## 📈 Results
 
 The model trains for 15 epochs with both training and validation loss plotted for performance monitoring.
 
-📌 Key Features
+## 📌 Key Features
 
 Custom PyTorch Dataset class for handling pickle files
 
@@ -79,11 +79,8 @@ Training/Validation split with DataLoader
 
 Loss monitoring and visualization
 
-📜 License
 
-This project is licensed under the MIT License.
-
-🙌 Acknowledgements
+## 🙌 Acknowledgements
 
 Dataset: Kaggle - Traffic Signs Preprocessed
 
